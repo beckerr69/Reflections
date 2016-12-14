@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Initializing a repository lets Git know that that directory and its files and directories within it will be available to be managed by Git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The working directory provides a sandbox for doing your work that git's repository has access to for understanding the context of the repositories potential files to manage. This allows me to know what git is and is not managing.
+
