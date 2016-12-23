@@ -6,3 +6,25 @@ How is the staging area different from the working directory and the repository?
 
 	The working directory provides a sandbox for doing your work that git's repository has access to for understanding the context of the repositories potential files to manage. This allows me to know what git is and is not managing.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area can be used to show the diff between what's staged and what the last commit was. This confirms what will actually be committed.
+	command:
+		git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are useful for experimenting with the code without modifying the working base code.
+
+How do the diagrams help you visualize the branch structure?
+	
+	It identifies when branches where created with respect to other commits from other branches. This allows me to know what's missing and what's required to get to a merged state that all code is synchronized.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	A merge allows two separate sets of code modifications to be joined together into the same set of code. The main branch is used to to merge the development branch into it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Auto merge is good when there are no conflicts and the work just needs to be done to merge the branches together. I don't see that are any problems with the auto merge feature as it's defined and implemented. It's the best it can be as far as I'm concerned at this point in time.
+
