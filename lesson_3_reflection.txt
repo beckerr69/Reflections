@@ -1,29 +1,25 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+When would you want to use a remote repository rather than keeping all your work local?
 
-    Fill in your answer here
+    When others are working on the same files, the files need to be accessable to the others. Having a remote repository will allow for this.
 
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Just like commits, you want to control when changes are integrated because you may not be ready for the changes.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    Forks - used when you want to take someone elses repository to work on your own ideas.
+    Clones - used when you want to take a repository to work on locally.
+    Branches - used when you want to deviate from the main work on your local repository to do some experimental changes before merging into your main work.
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    This would allow you to know what's in the remote with respect to your local changes.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    Without GitHub, collaboration would be via email/text, which would be more generic and would require me to explain more about that I'm communicating. With GitHub, the subject is already in context of a change that I want to make with the work. The comments created within GitHub further describes the situation, therefore, requiring me to explain very little for another person to understand the context I'm wanting to discuss, which is the change at hand. It would be easier to text someone if they already understood the context, but if others joined into the discussion, then explainations would be in order. GitHub is an all around better solution for collaboration within a team.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
     Fill in your answer here
