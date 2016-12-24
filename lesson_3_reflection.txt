@@ -22,4 +22,4 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When making experimental changes to determine if a change will work or not, a branch should be created. Once the branch has been determined to be good, then it should be merged into the master branch. In my book, there really is no exception to this where a change should be made to the master. Well ... actually a change could be added to the master directly IF there is not experimentation going on. If there's a documentation or simple bug fix that's obvious, then the change to the master line MIGHT be an acceptable. It could be argued that you should always create a branch and have the change vetted and verified before going into the master, but then this may be too formal of a process for some situations. I would think this formal approach should be used in a large professional/safety critical application.
